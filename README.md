@@ -25,6 +25,7 @@ This project provides a user-friendly interface for querying tax-related questio
 - **Input Validation**: Ensures that only tax-related prompts are processed.
 - **Data Storage**: Prompts and responses are saved in a MySQL database.
 - **History Viewing**: Displays past interactions in a separate window.
+- **Anthropic AI Integration**: Leverages Claude AI models to generate intelligent, context-aware responses.
 - **Error Handling**: Provides meaningful feedback for invalid inputs or server issues.
 - **Customizable Branding**: Placeholder for company-specific branding.
 
@@ -35,10 +36,19 @@ This project provides a user-friendly interface for querying tax-related questio
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL (with `mysql2` library)
-- **API Integration**: Axios
+- **API Integration**: Axios, Anthropic A
 - **Other Tools**: CORS for cross-origin requests
 
 ---
+## Anthropic AI Integration
+
+This project uses the **Anthropic Claude AI API** to generate intelligent and context-aware responses to user queries. The Claude model processes user prompts and returns text-based responses.
+
+### Why Anthropic AI?
+
+- Claude models provide high-quality responses tailored to specific user inputs.
+- The API offers a reliable, scalable solution for integrating conversational AI into applications.
+
 
 ## Installation and Setup
 
