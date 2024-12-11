@@ -36,7 +36,7 @@ This project provides a user-friendly interface for querying tax-related questio
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL (with `mysql2` library)
-- **API Integration**: Axios, Anthropic A
+- **API Integration**: Axios, Anthropic AI
 - **Other Tools**: CORS for cross-origin requests
 
 ---
