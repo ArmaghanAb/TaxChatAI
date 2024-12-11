@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tax Chat UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-ui">
+    <div class="header">
+      <h1>Tax Advisor Chat UI</h1>
+      <div class="logo">TaxCorp<span>.</span></div>
+    </div>
+    
+    <div class="prompt-section">
+      <label for="taxPrompt">Tax Prompt</label>
+      <input type="text" id="taxPrompt" >
+    </div>
+    
+    <div class="buttons">
+      <button id="sendButton" class="send">
+        <img src="gpt-icone.png" alt="GPT Logo" width="20" height="20" />
+        Send
+      </button>
+      <button id="cancelButton" class="cancel">Cancel</button>
+      <button id="historyButton">Show History</button>
+
+    </div>
+    
+    <div class="response-section">
+      <h2>Response</h2>
+      <p id="responseText"></p>
+    </div>
+
+</div>
+  
+  <script src="main.js"></script>
+</body>
+</html>

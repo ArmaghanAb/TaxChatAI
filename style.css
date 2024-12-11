@@ -1,0 +1,176 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+}
+
+.chat-ui {
+  width: 800px;
+  min-height: 400px;
+  height:auto;
+  background-color: #fff;
+  
+  
+  padding: 0;
+  border:solid 2px black;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003580;
+  padding: 10px 20px;
+  color: white;
+  font-size: 28px;
+  border-bottom: solid 2px black;
+}
+
+.header h1 {
+  font-size: 27px;
+  margin: 0;
+ 
+}
+
+.logo {
+  font-size: 28px;
+  color: #b9b9c2; 
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.logo span {
+  color: white; 
+  font-size: inherit;
+  font-weight: bold;
+}
+
+/* Prompt section */
+.prompt-section {
+  min-height:180px;
+  border-bottom: 2px solid black;
+  
+  
+}
+
+.prompt-section label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0c4698;
+  text-align:left;
+  padding-left:20px;
+  margin-top:10px;
+  display:block;
+}
+
+#taxPrompt {
+ 
+  justify-content: space-between;
+  width: 90%;
+  min-height:50%;
+  padding: 10px;
+  margin-top:20px;
+  margin-left:20px;
+  font-size: 14px;
+}
+
+/* Button styling */
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top:5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* Ensure text and icon are centered */
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+button svg {
+  margin-right: 8px;
+  color: white;  
+}
+
+.send {
+  background-color: #003580;
+  color: white;
+  width: 170px;
+  margin-right: 10px;
+}
+
+.cancel {
+  background-color: #8b1874;
+  color: white;
+  width: 170px;
+  margin-left:10px;
+}
+
+#historyButton {
+  background-color: #054e2e;
+  color: white;
+  border: solid 2px black;
+  border-radius: 5px;
+  width:170px;
+  margin-left:20px;
+  padding-top:15px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+button img {
+  margin-right: 8px;
+  vertical-align: middle;
+  width:30px;
+  height:30px;
+}
+
+/* Response section */
+.response-section {
+  background-color: #cfcfd2;
+border-bottom:solid 2px black;
+border-top:solid 2px black;
+  min-height: 180px;
+
+ 
+ 
+  margin-bottom:40px;
+}
+
+.response-section h2 {
+  color: #084397;
+  margin-top: 0;
+  font-size: 20px;
+  text-align:left;
+  padding-left:10px;
+  padding-top:10px;
+  
+}
+
+#responseText{
+  font-size: 16px;
+  color: #0e0d0d;
+ margin-top:10px;
+  padding-left:10px;
+  padding-bottom:10px;
+
+}
+
+

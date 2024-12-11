@@ -1,0 +1,65 @@
+# Tax Chat UI
+
+This project provides a simple chat interface for querying tax-related questions and getting responses from a backend API. The program uses Node.js with Express and Axios.
+
+## Prerequisites
+
+- Node.js: Ensure you have Node.js installed. You can download it from [https://nodejs.org/](https://nodejs.org/).
+- Dependencies: Install project dependencies using `npm install`.
+
+## Steps to Run the Program
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory where the folder `deloitte-chat-ui` is located.
+
+   ```bash
+   cd path/to/deloitte-chat-ui
+
+3. Install necessary dependencies (run this only the first time):
+
+```bash
+npm install
+
+4. Start the server by running:
+
+```bash
+node server.js
+
+You should see the following message indicating that the server is running successfully:
+
+     Server running on http://localhost:3000
+
+5. Open the index file from the folder to access the chat interface.
+
+6. Type your tax-related question in the provided input box, and click the Send button to see the response.
+
+To View the Logged Data:
+
+1. Open Developer Tools in your browser (usually by pressing F12 or Ctrl + Shift + I).
+2. Navigate to the Console tab.
+3. When you click the Send button, the stored responses will be printed to the console, including the new one.
+
+
+---------------------------------------------------------------
+## Database Setup
+
+    #Dependency: mysql2: MySQL client for Node.js, used to connect to the MySQL database.
+
+The project stores user prompts and responses in a MySQL database. Here’s how to set it up:
+
+1. Open MySQL Workbench.
+2. Create a new database schema named `auditdb`.
+3. Run the following SQL query to create the necessary table:
+
+```sql:
+
+CREATE TABLE PromptsAndResponses (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    prompt TEXT NOT NULL,
+    response TEXT NOT NULL,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+SELECT * FROM PromptsAndResponses;
+
+
